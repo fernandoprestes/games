@@ -1,0 +1,69 @@
+/**==============
+* ! RESET
+**=============== */
+
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body{
+  max-width: 640px;
+  background-color: rgb(188, 248, 228);
+  display: flex;
+  align-items: center;
+}
+
+/**==============
+* ! BOARD GAME
+**=============== */
+
+.board-game{
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 600px;
+}
+
+/**==============
+* ! CARD GAME
+**=============== */
+
+.card-front-back{
+  height: 160px;
+  width: 140px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 400ms ease-in-out;
+  cursor: pointer;
+}
+
+.card-front-back:active{
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
+.card-front-back.-active{
+  transform: rotateY(180deg);
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card.-back {
+  transform: rotateY(180deg);
+}
