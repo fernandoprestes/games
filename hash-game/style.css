@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Pincel;
+  src: url(edosz.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #00ffff;
+  font-family: Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.game {
+  display: grid;
+  width: 470px;
+  height: 467px;
+  margin: 2rem auto;
+  grid-template-columns: repeat(3, 16rem);
+  place-content: center;
+  background: #fff;
+}
+
+.quadrado {
+  text-align: center;
+  padding: 4rem;
+  font-size: 6rem;
+  margin: 0.5rem;
+  background: #00ffff;
+  color: #00ffff;
+  cursor: pointer;
+  font-family: Pincel;
+}
+
+h1,
+.jogador,
+.vencedor {
+  font-size: 2.4rem;
+  margin: 0.875rem auto;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 1rem 5rem;
+  background: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #fff;
+}
