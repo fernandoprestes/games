@@ -1,0 +1,65 @@
+
+/* Animação */
+
+.animaHeliceAmiga {
+  background-image: url(./img/helicoptero.png);
+  animation: play 0.5s steps(2) infinite;
+  -webkit-animation: play 0.5s steps(2) infinite;
+  -moz-animation: play 0.5s steps(2) infinite;
+  -ms-animation: play 0.5s steps(2) infinite;
+  -o-animation: play 0.5s steps(2) infinite;
+}
+
+.animaHeliceInimiga {
+  background-image:url(./img/inimigo1.png);
+  animation: play .5s steps(2) infinite;
+  -webkit-animation: play .5s steps(2) infinite;
+  -moz-animation: play .5s steps(2) infinite;
+  -ms-animation: play .5s steps(2) infinite;
+  -o-animation: play .5s steps(2) infinite; 
+}
+
+@keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -512px;
+  }
+}
+
+@-webkit-keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -512px;
+  }
+}
+
+@-moz-keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -512px;
+  }
+}
+
+@-ms-keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -512px;
+  }
+}
+
+@-o-keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -512px;
+  }
+}

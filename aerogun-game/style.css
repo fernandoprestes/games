@@ -1,0 +1,137 @@
+@import url(./css/animacao1.css);
+@import url(./css/animacao2.css);
+@import url(./css/amigomorte.css);
+
+@font-face {
+  font-family: Titulo;
+  src: url(./fonts/ANODETONOONE.TTF);
+}
+
+h1 {
+  font-family: Titulo;
+  font-size: 40px;
+  color: #603a03;
+  text-align: center;
+}
+
+body {
+  background-image: url(./img/fundo.jpg);
+}
+
+.container {
+  width: 950px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.fundoGame {
+  width: 950px;
+  height: 630px;
+  background-image: url(./img/fundo_game.jpg);
+  border: 5px solid #fff;
+}
+
+.inicio {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  margin: 100px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#jogador {
+  width: 256px;
+  height: 66px;
+  position: absolute;
+  left: 8px;
+  top: 179px;
+  background-image: url(./img/apache.png);
+}
+
+#placar {
+  width: 450px;
+  height: 50px;
+  position: absolute;
+  left: 5px;
+  top: 590px;
+}
+
+h2 {
+  font-family: Titulo;
+  font-size: 20px;
+  color: #fff;
+}
+
+#inimigo1 {
+  width: 256px;
+  height: 66px;
+  position: absolute;
+  left: 689px;
+  top: 253px;
+  background-image: url(./img/inimigo1.png);
+}
+
+#inimigo2 {
+  width: 165px;
+  height: 70px;
+  position: absolute;
+  left: 775px;
+  top: 447px;
+  background-image: url(./img/inimigo2.png);
+}
+
+#amigo {
+  width: 44px;
+  height: 51px;
+  position: absolute;
+  left: 10px;
+  top: 464px;
+  background-image: url(./img/amigo.png);
+}
+
+#disparo {
+  width: 50px;
+  height: 8px;
+  position: absolute;
+  background-image: url(./img/disparo.png);
+}
+
+#explosao1,
+#explosao2 {
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao3 {
+  width: 44px;
+  height: 51px;
+  position: absolute;
+}
+
+#energia {
+  width: 140px;
+  height: 38px;
+  position: absolute;
+  left: 750px;
+  top: 7px;
+}
+
+h3 {
+  font-family: Titulo;
+  font-size: 20px;
+  color: #603a03;
+}
+
+#fim {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}
