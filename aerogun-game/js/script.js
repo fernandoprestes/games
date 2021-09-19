@@ -293,7 +293,7 @@ function start() {
       window.clearInterval(tempoAmigo)
       tempoAmigo = null
       if (fimdejogo == false) {
-        startAmigo()
+        $('#fundoGame').append("<div id='amigo' class='animaAmigo'></div>")
       }
     }
   }
