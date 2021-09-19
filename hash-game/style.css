@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   display: grid;
   align-items: center;
   align-content: center;
@@ -53,11 +53,13 @@ h1,
 }
 
 .button {
-  margin-top: 1rem;
+  margin: 1rem;
   padding: 1rem 5rem;
   background: #eee;
   border: 1px solid #fff;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .button:hover {

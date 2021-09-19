@@ -7,9 +7,9 @@ const btn = document.querySelector('.button')
 
 btn.addEventListener('click', reiniciar)
 
-let jogadorOpcao = ['X', 'O']
+const jogadorOpcao = ['X', 'O']
 
-mudarJogador(jogadorOpcao[Math.floor(Math.random() * 2)])
+mudarJogador(jogadorOpcao[Math.floor(Math.random() * jogadorOpcao.length)])
 
 function escolherQuadrado(id) {
   if (vencedor !== null) {
